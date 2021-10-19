@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "title1",
+      "body": "this is body 1",
+      "publishedAt": "10-01-2021"
+    },
+    {
+      "id": 2,
+      "title": "title2",
+      "body": "this is body 2",
+      "publishedAt": "20-02-2021"
+    },
+    {
+      "id": 3,
+      "title": "title3",
+      "body": "this is body 3",
+      "publishedAt": "30-03-2021"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "dhow",
+      "email": "dhow@mail.com"
+    },
+    {
+      "id": 2,
+      "name": "arr",
+      "email": "arrw@mail.com"
+    },
+    {
+      "id": 1,
+      "name": "oww",
+      "email": "oww@mail.com"
+    }
+  ]
+}

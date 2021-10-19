@@ -1,0 +1,18 @@
+{
+  "name": "react-admin-test",
+  "version": "0.0.1",
+  "description": "react-admin test",
+  "main": "index.js",
+  "author": "dhow",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000",
+    "client": "yarn --cwd ./client/ react-scripts start",
+    "dev": "concurrently \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "json-server": "^0.17.0"
+  }
+}

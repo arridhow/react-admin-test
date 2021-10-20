@@ -1,9 +1,14 @@
 import React from "react";
+import { Admin, Resource } from "react-admin";
+import restProvider from "ra-data-simple-rest";
+import { PostList } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <h1>REACT-ADMIN-TEST</h1>
+      <Admin dataProvider={restProvider("http://localhost:3000")}>
+        <Resource name="posts" list={PostList} />
+      </Admin>
     </div>
   );
 }

@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "server": "json-server --watch db.json --port 5000",
+    "server": "json-server --watch db.json --port 5000 --middlewares ./range.js",
     "client": "yarn --cwd ./client/ react-scripts start",
     "dev": "concurrently \"yarn server\" \"yarn client\""
   },
